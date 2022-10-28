@@ -5,7 +5,7 @@ import Container from "../components/container";
 import Header from "../components/header";
 import Layout from "../components/layout";
 import Image from "next/image";
-import { useRouter } from "next/router";
+import { NextRouter, useRouter } from "next/router";
 import { FormattedMessage } from "react-intl";
 
 type ProductProps = {
@@ -22,8 +22,8 @@ export async function getStaticProps() {
 }
 
 const Home: NextPage<ProductProps> = ({ products }) => {
-  const router = useRouter();
-  const { locale } = router;
+  const router: NextRouter = useRouter()
+  const locale: 'th' | 'en' = router.locale as 'th' | 'en'
 
   return (
     <>
