@@ -7,14 +7,12 @@ import Layout from "../components/layout";
 import Image from "next/image";
 import { NextRouter, useRouter } from "next/router";
 import { FormattedMessage } from "react-intl";
-
+import { products } from "../assets/json/products"
 type ProductProps = {
   products: ProductProps[];
 }
 
 export async function getStaticProps() {
-  const res = await fetch("http://localhost:3000/api/products");
-  const products = await res.json();
 
   return {
     props: { products },
