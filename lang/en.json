@@ -1,5 +1,10 @@
 {
   "shop": "Shop",
   "contact": "Contacts",
-  "about": "About"
+  "about": "About",
+  "price": "Price",
+  "makeorder": "Make order",
+  "featured_products": "Featured products",
+  "featured_products_desc": "Choose your favorite strains.{br}Prices will be calculated upon checkout.",
+  "banner_desc": "High quality medical and recreational cannabis {br}with fast and discreet delivery anywhere in the Thailand."
 }
