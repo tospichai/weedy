@@ -8,6 +8,10 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { FormattedMessage } from "react-intl";
 
+type ProductProps = {
+  products: ProductProps[];
+}
+
 export async function getStaticProps() {
   const res = await fetch("http://localhost:3000/api/products");
   const products = await res.json();
@@ -17,9 +21,10 @@ export async function getStaticProps() {
   };
 }
 
-const Home: NextPage = ({ products }) => {
+const Home: NextPage<ProductProps> = ({ products }) => {
   const router = useRouter();
   const { locale } = router;
+
   return (
     <>
       <Layout>

@@ -30,8 +30,8 @@ const product = [
     id: 3,
     name: "GG4",
     desc: {
-      th: "Original Glue หรือที่รู้จักในชื่อ Gorilla Glue, Original Glue, GG4 และ Gorilla Glue #4 เป็นกัญชาสายพันธุ์ไฮบริดที่มอบความรู้สึกสบายและผ่อนคลายให้กับมือหนักหน่วง ทำให้คุณรู้สึก “ติดกาว” กับโซฟา ดอกตูมที่เคลือบด้วยเรซินเป็นชิ้นๆ ของ Gorilla Glue เติมห้องด้วยกลิ่นดินและเปรี้ยวฉุนที่สืบทอดมาจากสายพันธุ์พ่อแม่",
-      en: "Original Glue, also known as Gorilla Glue, Original Glue, GG4, and Gorilla Glue #4 is a potent hybrid marijuana strain that delivers heavy-handed euphoria and relaxation, leaving you feeling “glued” to the couch. Gorilla Glue's chunky, resin-covered buds fill the room with pungent earthy and sour aromas inherited from its parent strains.",
+      th: "Original Glue หรือที่รู้จักในชื่อ Gorilla Glue, Original Glue, GG4 และ Gorilla Glue #4 เป็นกัญชาสายพันธุ์ไฮบริดที่มอบความรู้สึกสบายและผ่อนคลายให้กับมือหนักหน่วง ทำให้คุณรู้สึก “ติดกาว” กับโซฟา ดอกตูมที่เคลือบด้วยเรซินเป็นชิ้นๆ ของ Gorilla Glue",
+      en: "Original Glue, also known as Gorilla Glue, Original Glue, GG4, and Gorilla Glue #4 is a potent hybrid marijuana strain that delivers heavy-handed euphoria and relaxation, leaving you feeling “glued” to the couch. Gorilla Glue's chunky.",
     },
     image: "http://localhost:3000/images/products/gg-4.png",
     thc: "20%",
