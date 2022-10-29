@@ -33,10 +33,10 @@ const Home: NextPage<ProductProps> = ({ products }) => {
         <div className="bg-weed -mt-24 relative z-0 h-[600px] md:h-[1000px]"></div>
         <div className="text-white -mt-0 md:-mt-96 relative flex justify-center md:justify-around">
           <div className="flex flex-col w-max text-center sm:text-left">
-            <div className="text-6xl md:text-8xl font-bold -mt-80">
+            <div className="text-5xl sm:text-7xl md:text-8xl font-bold -mt-80">
               Don{"'"}t Panic,
             </div>
-            <div className="text-6xl md:text-8xl font-bold">
+            <div className="text-5xl sm:text-7xl md:text-8xl font-bold">
               It{"'"}s Organic.
             </div>
             <div className="text-sm md:text-2xl font-thin mt-4">
